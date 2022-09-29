@@ -1,0 +1,73 @@
+* {
+  padding: 0%;
+  margin: 0;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+}
+
+.date-timeF {
+  display: grid;
+  justify-content: center;
+  background: rgb(3, 75, 219);
+  color: rgb(255, 255, 255);
+  height: 200px;
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.date-time {
+  margin: auto;
+}
+
+.date-one{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.date-two{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.date-tree{
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* .day {
+
+}
+
+.montth {
+}
+
+.date {
+    
+}
+.hours {
+}
+
+.minutes {
+} */
+.seconds {
+    color: rgb(249, 210, 210);
+    margin-top: -2px;
+    font-size: 25px;
+}
